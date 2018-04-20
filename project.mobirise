@@ -34,7 +34,7 @@
     "google-analytics": "",
     "siteUrl": "undefined",
     "versionFirst": "4.7.1",
-    "uniqCompNum": 9,
+    "uniqCompNum": 10,
     "versionPublish": "4.7.1",
     "screenshot": "screenshot.png"
   },
@@ -225,7 +225,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global once=\"menu\" always-top position-absolute>\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Height\" inline name=\"logoHeight\" min=\"55\" max=\"120\" value=\"65\" step=\"1\">\n        <input type=\"range\" title=\"Logo Width\" inline name=\"logoWidth\" min=\"55\" max=\"120\" value=\"72\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected>Right</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#197bc6\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/fb_img-1524064504270-144x144.jpg\" layout=\"responsive\" width=\"72\" height=\"72\" alt=\"Cynthiya Studio\">\n                  <a href=\"Home.html\"><img class=\"mbr-temp\" src alt=\"Cynthiya Studio\" title></a>\n              </amp-img>\n          </span>\n          <p mbr-text mbr-theme-style=\"display-2\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style\" data-app-selector=\".brand-name\"><b>Cynthiya Studio</b></p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu class=\"sidebar mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\">\n              <a class=\"text-primary\" href=\"https://mobirise.com\">Home</a>\n              <a class=\"text-primary\" href=\"https://mobirise.com\">About Us</a>\n              <a class=\"text-primary\" href=\"https://mobirise.com\">Services</a>\n            </div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\">\n              <a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Contact Us</a>\n            </div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"55\" max=\"120\" value=\"65\" step=\"1\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"55\" max=\"120\" value=\"72\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#197bc6\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"file:////Raff-pc/g/Project%203%20&amp;%204/Cynthiya%20Studio/Website%20Export//assets/images/fb_img-1524064504270-144x144.jpg\" layout=\"responsive\" width=\"72\" height=\"72\" alt=\"Cynthiya Studio\">\n                  <a href=\"Home.html\"><img class=\"mbr-temp\" src=\"file:////Raff-pc/g/Project%203%20&amp;%204/Cynthiya%20Studio/Website%20Export//assets/images/fb_img-1524064504270-144x144.jpg\" alt=\"Cynthiya Studio\" title=\"\"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-2\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style\" data-app-selector=\".brand-name\"><b>Cynthiya Studio</b></p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu=\"\" class=\"sidebar mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\">\n              <a class=\"text-primary\" href=\"https://mobirise.com\">Home</a>\n              <a class=\"text-primary\" href=\"https://mobirise.com\">About Us</a>\n              <a class=\"text-primary\" href=\"https://mobirise.com\">Services</a>\n            </div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\">\n              <a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Contact Us</a>\n            </div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
           "_cid": "qPDXhczxKa",
           "_anchor": "menu1-0",
           "_protectedParams": [],
@@ -261,30 +261,38 @@
         },
         {
           "_styles": {
-            "& when not (@fullScreen)": {
+            "& when not (@fullWidth)": {
               "padding-top": "(@paddingTop * 15px)",
               "padding-bottom": "(@paddingBottom * 15px)"
             },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-section-btn": {
-              "margin-bottom": "20px"
+            "background-color": "@bgColor",
+            ".image-block": {
+              "margin": "auto",
+              "width": "~\"@{videoSize}%\"",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
             },
             "amp-img": {
-              "width": "100%",
-              "text-align": "center",
-              "margin": "0 auto",
-              "max-width": "~'@{imageWidth}%'"
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "margin": "0",
+              "padding": ".5rem 0",
+              "& when (@fullWidth)": {
+                "padding": ".5rem 15px"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
             }
           },
-          "_name": "header2",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Image Width\" name=\"imageWidth\" min=\"0\" max=\"100\" step=\"1\" value=\"100\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-lg-8\">\n                <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    Mobirise AMP\n                </h1>\n                <h3 class=\"mbr-fonts-style align-center\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-5\">\n                    Accelerated Mobile Pages By Google\n                </h3>\n                <div class=\"mbr-text align-center\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod at id fugiat natus a voluptas eveniet officia iure nihil nostrum ad, modi ipsam, dicta ullam accusamus, voluptate aspernatur. Accusamus, aliquid?\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">START BUILDING</a>\n                    <a class=\"btn btn-md btn-warning\" href=\"https://mobirise.com\">LEARN MORE</a>\n\n                </div>\n                <amp-img src=\"@PROJECT_PATH@/assets/images/35-1460x1177.jpg\" alt=\"Mobirise\" width=\"730.6212765957447\" height=\"588\" layout=\"responsive\">\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/35-1460x1177.jpg\" alt=\"Mobirise\" title>\n                </amp-img>\n            </div>\n        </div>\n    </div>\n\n</section>",
-          "_cid": "qPEfuWbwSI",
-          "_anchor": "header2-7",
+          "_name": "image2",
+          "_customHTML": "<section class=\"image1\" group=\"Images & Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\" checked>\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/35-1466x1181.jpg\" layout=\"responsive\" width=\"733\" height=\"590\" alt=\"Photo\">\n                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/35-1466x1181.jpg\" alt=\"Photo\" title>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Wedding Photography</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qPJBRi6Q4h",
+          "_anchor": "image2-9",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
